@@ -24,7 +24,7 @@ public class CargadorJSON {
     public static String lectorContenidoWeb(String urlALeer) {
         try {
             URL url = new URL(urlALeer);
-            Log.v("coñoo",urlALeer);
+            Log.v("AHORA CAMBIO TRABAJO 2",urlALeer);
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
 
             InputStream is = conexion.getInputStream();
