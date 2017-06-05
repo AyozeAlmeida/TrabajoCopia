@@ -30,7 +30,7 @@ public class CargadorJSON {
             InputStream is = conexion.getInputStream();
 
             InputStreamReader isr = new InputStreamReader(is);
-            Log.v("CAMBIO NUMERO 1","llego22");
+            Log.v("CAMBIO NUMERO 2","llego22");
             BufferedReader br = new BufferedReader(isr);
             StringBuilder respuesta = new StringBuilder();
             String datos;
