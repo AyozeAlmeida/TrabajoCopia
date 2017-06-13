@@ -10,7 +10,7 @@ public class Categorias {
         private String id;
         private String nombre;
 
-
+private String putmesu;
         public Categorias() {
             super();
        }
